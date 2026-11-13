@@ -63,9 +63,9 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 3.81 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
-				(name "-"
+				(name "Power"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -81,9 +81,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 1.27 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
-				(name "CAN_H"
+				(name "CAN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -91,42 +91,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -1.27 0)
-				(length 2.54)
-				(name "CAN_L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 -3.81 0)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -197,9 +161,9 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 3.81 0)
+				(at -11.43 1.27 0)
 				(length 2.54)
-				(name "-"
+				(name "Power"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -215,9 +179,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 1.27 0)
+				(at -11.43 -1.27 0)
 				(length 2.54)
-				(name "CAN_H"
+				(name "CAN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -232,10 +196,271 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -11.43 -1.27 0)
+		)
+	)
+	(symbol "MPM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -0.508 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPM"
+			(at 0.762 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breaker 0 Amperage" "0A"
+			(at -2.032 -8.89 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 1 Amperage" "0A"
+			(at -2.032 -5.08 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 2 Amperage" "0A"
+			(at -2.032 -1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 3 Amperage" "0A"
+			(at -2.032 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 4 Amperage" "0A"
+			(at -2.032 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 5 Amperage" "0A"
+			(at -2.032 10.16 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(symbol "MPM_0_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 5.08 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 -7.62)
+				(end 2.54 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 -3.81)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 0)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 3.81)
+				(end 2.54 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 7.62)
+				(end 2.54 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 11.43)
+				(end 2.54 8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MPM_1_1"
+			(pin power_in line
+				(at -5.08 -12.7 90)
 				(length 2.54)
-				(name "CAN_L"
+				(name "Power"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 -8.89 180)
+				(length 2.54)
+				(name "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -250,10 +475,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -11.43 -3.81 0)
+			(pin power_out line
+				(at 7.62 6.35 180)
 				(length 2.54)
-				(name "+"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -261,6 +486,220 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 10.16 180)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "NEO_550"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SUBSYSTEM/FUNCTION_NAME_HERE__CAN_ID_"
+			(at 29.21 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NEO_550"
+			(at 12.192 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NEO_550_1_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+					(color 6 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "Phase"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "Sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "NEO_V1.1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SUBSYSTEM/FUNCTION_NAME_HERE__CAN_ID_"
+			(at 30.226 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NEO_V1.1"
+			(at 13.208 -0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NEO_V1.1_1_1"
+			(rectangle
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+					(color 6 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "Phase"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "Sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -291,7 +730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 2.54 -1.27 0)
+			(at 3.81 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 2.54 -1.27 0)
+			(at 3.81 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 2.54 -1.27 0)
+			(at 3.81 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,10 +756,514 @@
 				(hide yes)
 			)
 		)
+		(property "Breaker 0 Amperage" "0A"
+			(at 8.128 -16.51 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 1 Amperage" "0A"
+			(at 8.128 -10.16 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 2 Amperage" "0A"
+			(at 8.128 -3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 3 Amperage" "0A"
+			(at 8.128 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 4 Amperage" "0A"
+			(at 8.128 8.89 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 5 Amperage" "0A"
+			(at 8.128 15.24 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 6 Amperage" "0A"
+			(at 7.874 21.59 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 7 Amperage" "0A"
+			(at 7.874 27.94 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 8 Amperage" "0A"
+			(at 7.874 34.29 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 9 Amperage" "0A"
+			(at 7.874 40.64 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 10 Amperage" "0A"
+			(at -9.652 40.64 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 11 Amperage" "0A"
+			(at -9.652 34.29 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 12 Amperage" "0A"
+			(at -9.652 27.94 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 13 Amperage" "0A"
+			(at -9.652 21.59 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 14 Amperage" "0A"
+			(at -9.652 15.24 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 15 Amperage" "0A"
+			(at -9.652 8.89 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 16 Amperage" "0A"
+			(at -9.652 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 17 Amperage" "0A"
+			(at -9.652 -3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 18 Amperage" "0A"
+			(at -9.652 -10.16 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 19 Amperage" "0A"
+			(at -9.652 -16.51 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 20 Amperage" "0A"
+			(at -9.906 -24.13 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 21 Amperage" "0A"
+			(at -9.906 -29.21 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 22 Amperage" "0A"
+			(at -9.906 -34.29 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Breaker 23 Amperage" "0A"
+			(at -9.906 -39.37 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(symbol "PDH_0_1"
 			(rectangle
-				(start -15.24 46.99)
-				(end 15.24 -46.99)
+				(start -15.24 44.45)
+				(end 16.51 -44.45)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -38.1)
+				(end -5.08 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -33.02)
+				(end -5.08 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -27.94)
+				(end -5.08 -30.48)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -22.86)
+				(end -5.08 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -15.24)
+				(end -5.08 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -8.89)
+				(end -5.08 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 -2.54)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 3.81)
+				(end -5.08 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 10.16)
+				(end -5.08 7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 16.51)
+				(end -5.08 13.97)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 22.86)
+				(end -5.08 20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 29.21)
+				(end -5.08 26.67)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 35.56)
+				(end -5.08 33.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -10.16 41.91)
+				(end -5.08 39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 -15.24)
+				(end 12.7 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 -8.89)
+				(end 12.7 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 -2.54)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 3.81)
+				(end 12.7 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 10.16)
+				(end 12.7 7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 16.51)
+				(end 12.7 13.97)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 22.86)
+				(end 12.7 20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 29.21)
+				(end 12.7 26.67)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 35.56)
+				(end 12.7 33.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 41.91)
+				(end 12.7 39.37)
 				(stroke
 					(width 0)
 					(type default)
@@ -332,7 +1275,7 @@
 		)
 		(symbol "PDH_1_1"
 			(text "CAN"
-				(at -3.556 -37.084 0)
+				(at -0.762 -36.83 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -340,7 +1283,7 @@
 				)
 			)
 			(text "LOW CURRENT"
-				(at -9.398 -21.082 0)
+				(at -7.366 -21.336 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -348,7 +1291,7 @@
 				)
 			)
 			(text "POWER INPUT"
-				(at 9.398 -43.688 0)
+				(at 10.668 -41.148 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -356,9 +1299,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -17.78 180)
+				(at 19.05 -16.51 180)
 				(length 2.54)
-				(name "0-"
+				(name "0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -374,9 +1317,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -15.24 180)
+				(at 19.05 -10.16 180)
 				(length 2.54)
-				(name "0+"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -392,9 +1335,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 13.97 180)
+				(at -17.78 40.64 0)
 				(length 2.54)
-				(name "5-"
+				(name "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -410,9 +1353,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 16.51 180)
+				(at -17.78 34.29 0)
 				(length 2.54)
-				(name "5+"
+				(name "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -428,9 +1371,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 20.32 180)
+				(at -17.78 27.94 0)
 				(length 2.54)
-				(name "6-"
+				(name "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -446,9 +1389,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 22.86 180)
+				(at -17.78 21.59 0)
 				(length 2.54)
-				(name "6+"
+				(name "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -464,9 +1407,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 26.67 180)
+				(at -17.78 15.24 0)
 				(length 2.54)
-				(name "7-"
+				(name "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -482,9 +1425,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 29.21 180)
+				(at -17.78 8.89 0)
 				(length 2.54)
-				(name "7+"
+				(name "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -500,9 +1443,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 33.02 180)
+				(at -17.78 2.54 0)
 				(length 2.54)
-				(name "8-"
+				(name "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -518,9 +1461,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 35.56 180)
+				(at -17.78 -3.81 0)
 				(length 2.54)
-				(name "8+"
+				(name "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -536,9 +1479,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 39.37 180)
+				(at -17.78 -10.16 0)
 				(length 2.54)
-				(name "9-"
+				(name "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -554,9 +1497,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 41.91 180)
+				(at -17.78 -16.51 0)
 				(length 2.54)
-				(name "9+"
+				(name "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -572,9 +1515,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -11.43 180)
+				(at 19.05 -3.81 180)
 				(length 2.54)
-				(name "1-"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -590,9 +1533,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 41.91 0)
+				(at -17.78 -24.13 0)
 				(length 2.54)
-				(name "10-"
+				(name "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -608,9 +1551,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 39.37 0)
+				(at -17.78 -29.21 0)
 				(length 2.54)
-				(name "10+"
+				(name "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -626,9 +1569,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 35.56 0)
+				(at -17.78 -34.29 0)
 				(length 2.54)
-				(name "11-"
+				(name "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -644,9 +1587,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 33.02 0)
+				(at -17.78 -39.37 0)
 				(length 2.54)
-				(name "11+"
+				(name "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -661,10 +1604,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 29.21 0)
+			(pin bidirectional line
+				(at -2.54 -46.99 90)
 				(length 2.54)
-				(name "12-"
+				(name "CAN_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -679,10 +1622,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 26.67 0)
+			(pin bidirectional line
+				(at 1.27 -46.99 90)
 				(length 2.54)
-				(name "12+"
+				(name "CAN_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -697,10 +1640,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 22.86 0)
+			(pin power_in line
+				(at 8.89 -46.99 90)
 				(length 2.54)
-				(name "13-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -715,10 +1658,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 20.32 0)
+			(pin power_in line
+				(at 12.7 -46.99 90)
 				(length 2.54)
-				(name "13+"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -734,45 +1677,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 16.51 0)
+				(at 19.05 2.54 180)
 				(length 2.54)
-				(name "14-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 13.97 0)
-				(length 2.54)
-				(name "14+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 -8.89 180)
-				(length 2.54)
-				(name "1+"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -788,189 +1695,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 10.16 0)
+				(at 19.05 8.89 180)
 				(length 2.54)
-				(name "15-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 7.62 0)
-				(length 2.54)
-				(name "15+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 3.81 0)
-				(length 2.54)
-				(name "16-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 1.27 0)
-				(length 2.54)
-				(name "16+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -2.54 0)
-				(length 2.54)
-				(name "17-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -5.08 0)
-				(length 2.54)
-				(name "17+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -8.89 0)
-				(length 2.54)
-				(name "18-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -11.43 0)
-				(length 2.54)
-				(name "18+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -15.24 0)
-				(length 2.54)
-				(name "19-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -17.78 0)
-				(length 2.54)
-				(name "19+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 -5.08 180)
-				(length 2.54)
-				(name "2-"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -986,189 +1713,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 -22.86 0)
+				(at 19.05 15.24 180)
 				(length 2.54)
-				(name "20-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -25.4 0)
-				(length 2.54)
-				(name "20+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -29.21 0)
-				(length 2.54)
-				(name "21-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -31.75 0)
-				(length 2.54)
-				(name "21+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -35.56 0)
-				(length 2.54)
-				(name "22-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -38.1 0)
-				(length 2.54)
-				(name "22+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -41.91 0)
-				(length 2.54)
-				(name "23-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -17.78 -44.45 0)
-				(length 2.54)
-				(name "23+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -7.62 -49.53 90)
-				(length 2.54)
-				(name "CAN_H_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -5.08 -49.53 90)
-				(length 2.54)
-				(name "CAN_L_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "2+"
+				(name "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1183,82 +1730,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -49.53 90)
-				(length 2.54)
-				(name "CAN_H_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -49.53 90)
-				(length 2.54)
-				(name "CAN_L_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -49.53 90)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 11.43 -49.53 90)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_out line
-				(at 17.78 1.27 180)
+				(at 19.05 21.59 180)
 				(length 2.54)
-				(name "3-"
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1274,9 +1749,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 3.81 180)
+				(at 19.05 27.94 180)
 				(length 2.54)
-				(name "3+"
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1292,9 +1767,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 7.62 180)
+				(at 19.05 34.29 180)
 				(length 2.54)
-				(name "4-"
+				(name "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1310,9 +1785,9 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 10.16 180)
+				(at 19.05 40.64 180)
 				(length 2.54)
-				(name "4+"
+				(name "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1320,6 +1795,411 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SparkMAX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SparkMAX"
+			(at 11.684 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SparkMAX_0_1"
+			(rectangle
+				(start -6.35 10.16)
+				(end 6.35 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SparkMAX_1_1"
+			(pin power_in line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(name "Phase"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 12.7 270)
+				(length 2.54)
+				(name "Encoder"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(name "Power"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "CAN/PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Systemcore"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Systemcore"
+			(at 21.59 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Systemcore_0_1"
+			(rectangle
+				(start -15.24 10.16)
+				(end 15.24 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Systemcore_1_1"
+			(pin input line
+				(at -11.43 12.7 270)
+				(length 2.54)
+				(name "Power"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 12.7 270)
+				(length 2.54)
+				(name "CAN_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "CAN_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 12.7 270)
+				(length 2.54)
+				(name "CAN_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 12.7 270)
+				(length 2.54)
+				(name "CAN_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 12.7 270)
+				(length 2.54)
+				(name "CAN_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "roboRIO 2.0"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "roboRIO_2.0"
+			(at 15.748 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "roboRIO 2.0_0_1"
+			(rectangle
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "roboRIO 2.0_1_1"
+			(pin power_in line
+				(at -11.43 6.35 0)
+				(length 2.54)
+				(name "Power"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(name "CAN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
